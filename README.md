@@ -14,11 +14,14 @@ concircle scanner mobile app is  application That helps you scan your order and 
 <a href="https://docs.expo.dev/workflow/development-mode/"><img src="https://img.shields.io/badge/-Expo-313131?style=flat-square&labelColor=313131&logo=expo&logoColor=white&color=313131"><a href="https://reactnative.dev/"><img src="https://img.shields.io/badge/-ReactNative-313131?style=flat-square&labelColor=313131&logo=reactnative&logoColor=white&color=313131"></img></a><a href="https://www.w3schools.com/css/css_intro.asp"><img src="https://img.shields.io/badge/-CSS3-313131?style=flat-square&labelColor=313131&logo=css3&logoColor=white&color=313131"></img></a><a href="https://www.javascript.com"><img src="https://img.shields.io/badge/-Javascript-313131?style=flat-square&labelColor=313131&logo=javascript&logoColor=white&color=313131"></img></a><a href="https://code.visualstudio.com"><img src="https://img.shields.io/badge/-Visual Studio Code-313131?style=flat-square&labelColor=313131&logo=visual-studio-code&logoColor=white&color=313131"></img></a>
 <!-- App DESGIN  -->
 ## APP DESGIN 
-| Concircle scanner mobile APP |
-|wireframe|Iphone Desgin|Android Desgin|
+|wireframe|
+| --- | 
+|![caaaa](https://user-images.githubusercontent.com/49178153/160923524-ed970fd3-3495-4a2e-acc6-eebdac28ddd8.PNG) 
+
+
+|Iphone Desgin|Android Desgin|
 | --- | --- | --- |
-|![caaaa](https://user-images.githubusercontent.com/49178153/160923524-ed970fd3-3495-4a2e-acc6-eebdac28ddd8.PNG)  |![iphone](https://user-images.githubusercontent.com/49178153/160923611-57d10679-8a4c-47b8-ab77-fda878cb537d.png)
- | ![android](https://user-images.githubusercontent.com/49178153/160923665-a8e6587b-6108-4cc1-bca4-0b3a9f45ce72.png) |
+|![iphone](https://user-images.githubusercontent.com/49178153/160923611-57d10679-8a4c-47b8-ab77-fda878cb537d.png) | ![android](https://user-images.githubusercontent.com/49178153/160923665-a8e6587b-6108-4cc1-bca4-0b3a9f45ce72.png) |
 
 
 ## Features
