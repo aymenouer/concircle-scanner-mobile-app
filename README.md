@@ -17,7 +17,8 @@ concircle scanner mobile app is  application That helps you scan your order and 
 ## APP DESGIN 
 |wireframe|Iphone Desgin|Android Desgin|
 | --- | --- | --- |
-|![caaaa](https://user-images.githubusercontent.com/49178153/160923524-ed970fd3-3495-4a2e-acc6-eebdac28ddd8.PNG)  | ![iphone](https://user-images.githubusercontent.com/49178153/160923611-57d10679-8a4c-47b8-ab77-fda878cb537d.png) | ![android_1](https://user-images.githubusercontent.com/49178153/160925267-0dc5d1d0-6a74-4fce-bfd3-9bac898224d1.png)
+|![caaaa](https://user-images.githubusercontent.com/49178153/160923524-ed970fd3-3495-4a2e-acc6-eebdac28ddd8.PNG)  | ![iphone](https://user-images.githubusercontent.com/49178153/160923611-57d10679-8a4c-47b8-ab77-fda878cb537d.png) | ![android_2](https://user-images.githubusercontent.com/49178153/160925490-ffc7b326-8034-4fab-baa8-a53e0666266a.png)
+
 
 
 
