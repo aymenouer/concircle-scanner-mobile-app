@@ -40,6 +40,7 @@ Run the app on [localhost:19002](http://localhost:19002)
 - clone
 - `npm install`
 - `expo start`
+- `Scan QR code with your mobile with expo client`
 
 
 You can find the Bar code Geneator app here : [App 💻](https://github.com/aymenouer/concircle-scanner-app)
