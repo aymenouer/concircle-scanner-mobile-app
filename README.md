@@ -7,7 +7,7 @@
 
 :star: Star on GitHub — it motivates Me a lot!
 
-concircle scanner mobile app is  application That helps you scan your order and position and to know if there are exact or not. it's cross-platform app.
+Concircle scanner mobile app is  application That helps you scan your order and position and to know if there are exact or not. it's cross-platform app.
 
 ---
 <h3>Technologies:</h3>
