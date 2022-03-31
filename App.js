@@ -1,4 +1,3 @@
-import { StatusBar } from "expo-status-bar";
 import React, { useState, useEffect } from "react";
 import {
   StyleSheet,
@@ -8,6 +7,7 @@ import {
   Vibration,
   SafeAreaView,
   TextInput,
+  Platform
 } from "react-native";
 
 import { BarCodeScanner } from "expo-barcode-scanner";
@@ -116,6 +116,7 @@ export default function App() {
                 padding: 10,
                 color:"green",
               }}
+              editable={false}
               value={textOrder}
             />
           </View>
@@ -130,6 +131,7 @@ export default function App() {
                 padding: 10,
                 color: "green",
               }}
+              editable={false}
               value={textPosition}
             />
           </View>
@@ -148,6 +150,7 @@ export default function App() {
            {textOrder !=="" && textPosition!=="" ? (
             <Button
               title="Try again ?"
+              style={{marginTop:50}}
               onPress={() => {
                 setScanned(false);
                 setTextOrder("");
@@ -165,7 +168,7 @@ export default function App() {
           )}
         </View>
 
-        <StatusBar style="auto" />
+ 
       </SafeAreaView>
     </>
   );
@@ -176,7 +179,8 @@ const styles = StyleSheet.create({
     display: "flex",
   },
   header: {
-    height: 50,
+    paddingTop: Platform.OS === 'android' ? 25 : 0,
+    height:Platform.OS === 'android' ? 75 :50,
   },
   headercontainer: {
     display: "flex",
@@ -202,6 +206,7 @@ const styles = StyleSheet.create({
   },
   barcodebox: {
     marginTop: 20,
+    marginBottom:20,
     alignItems: "center",
     justifyContent: "center",
     height: 300,
