@@ -7,9 +7,9 @@ import {
   Vibration,
   SafeAreaView,
   TextInput,
-  Platform
+  Platform,
+  StatusBar
 } from "react-native";
-
 import { BarCodeScanner } from "expo-barcode-scanner";
 
 function Header() {
@@ -23,6 +23,7 @@ function Header() {
 }
 
 export default function App() {
+
   const [textOrder, setTextOrder] = useState("");
   const [textPosition, setTextPosition] = useState("");
   const [error, setError] = useState("");
@@ -114,7 +115,7 @@ export default function App() {
                 height: 40,
                 borderWidth: 1,
                 padding: 10,
-                color:"green",
+                color: "green",
               }}
               editable={false}
               value={textOrder}
@@ -146,29 +147,29 @@ export default function App() {
               style={{ height: 400, width: 400 }}
             />
           </View>
-   
-           {textOrder !=="" && textPosition!=="" ? (
+
+          {textOrder !== "" && textPosition !== "" ? (
             <Button
               title="Try again ?"
-              style={{marginTop:50}}
+              style={{ marginTop: 50 }}
               onPress={() => {
                 setScanned(false);
                 setTextOrder("");
                 setTextPosition("");
               }}
             />
-          ) :        scanned && (
-            <Button
-              title="Scan again ?"
-              onPress={() => {
-                setScanned(false);
-                setError("");
-              }}
-            />
+          ) : (
+            scanned && (
+              <Button
+                title="Scan again ?"
+                onPress={() => {
+                  setScanned(false);
+                  setError("");
+                }}
+              />
+            )
           )}
         </View>
-
- 
       </SafeAreaView>
     </>
   );
@@ -177,10 +178,10 @@ export default function App() {
 const styles = StyleSheet.create({
   app: {
     display: "flex",
+    paddingTop: Platform.OS === "android" ? StatusBar.currentHeight : 0,
   },
   header: {
-    paddingTop: Platform.OS === 'android' ? 25 : 0,
-    height:Platform.OS === 'android' ? 75 :50,
+    height:  50,
   },
   headercontainer: {
     display: "flex",
@@ -206,7 +207,7 @@ const styles = StyleSheet.create({
   },
   barcodebox: {
     marginTop: 20,
-    marginBottom:20,
+    marginBottom: 20,
     alignItems: "center",
     justifyContent: "center",
     height: 300,
