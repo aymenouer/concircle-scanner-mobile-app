@@ -39,7 +39,7 @@ Run the app on [localhost:19002](http://localhost:19002)
 
 - clone
 - `npm install`
-- `expo start`
+- `npm start`
 - `Scan QR code with your mobile with expo client`
 
 
