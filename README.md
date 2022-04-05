@@ -21,7 +21,6 @@ Concircle scanner mobile app is  application That helps you scan your order and 
 
 
 
-
 ## Features
 
 - A barcode for an order and for a position is scanned by a device camera.🌟
