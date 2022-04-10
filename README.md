@@ -56,11 +56,3 @@ You are welcome to discuss it on:
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/aymen-ouerghi-249632146/)
 
 <br/>
-<br/>
-<br/>
-<br/>
-
-
-
-
-
