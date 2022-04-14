@@ -5,7 +5,7 @@
 [![Stars](https://img.shields.io/github/stars/aymenouer/concircle-scanner-mobile-app?style=social)](https://img.shields.io/github/stars/aymenouer/concircle-scanner-mobile-app?style=social)
 
 
-:star: Star on GitHub — it motivates Me a lot!
+:star: Star on GitHub — it motivates Me a lot!!
 
 Concircle scanner mobile app is  application That helps you scan your order and position and to know if there are exact or not. it's cross-platform app.
 
