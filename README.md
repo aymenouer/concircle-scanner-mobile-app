@@ -1,60 +1,52 @@
-# Concircle scanner mobile app
+# Concircle Scanner — mobile app
 
-[![Code Size](https://img.shields.io/github/languages/code-size/aymenouer/concircle-scanner-mobile-app)](https://img.shields.io/github/languages/top/aymenouer/concircle-scanner-mobile-app)
-[![Language](https://img.shields.io/github/languages/top/aymenouer/concircle-scanner-mobile-app)](https://img.shields.io/github/languages/top/aymenouer/concircle-scanner-mobile-app)
-[![Stars](https://img.shields.io/github/stars/aymenouer/concircle-scanner-mobile-app?style=social)](https://img.shields.io/github/stars/aymenouer/concircle-scanner-mobile-app?style=social)
+A cross-platform barcode-scanning application that helps compare scanned order and position codes and provides immediate feedback about whether a scan is valid.
 
-
-:star: Star on GitHub — it motivates Me a lot!
-
-Concircle scanner mobile app is  application That helps you scan your order and position and to know if there are exact or not. it's cross-platform app.
-
----
-<h3>Technologies:</h3>
-<a href="https://docs.expo.dev/workflow/development-mode/"><img src="https://img.shields.io/badge/-Expo-313131?style=flat-square&labelColor=313131&logo=expo&logoColor=white&color=313131"><a href="https://reactnative.dev/"><img src="https://img.shields.io/badge/-ReactNative-313131?style=flat-square&labelColor=313131&logo=react&logoColor=white&color=313131"></img></a><a href="https://www.w3schools.com/css/css_intro.asp"><img src="https://img.shields.io/badge/-CSS3-313131?style=flat-square&labelColor=313131&logo=css3&logoColor=white&color=313131"></img></a><a href="https://www.javascript.com"><img src="https://img.shields.io/badge/-Javascript-313131?style=flat-square&labelColor=313131&logo=javascript&logoColor=white&color=313131"></img></a><a href="https://code.visualstudio.com"><img src="https://img.shields.io/badge/-Visual Studio Code-313131?style=flat-square&labelColor=313131&logo=visual-studio-code&logoColor=white&color=313131"></img></a>
-
-<!-- App DESGIN  -->
-## APP DESGIN 
-|wireframe|Iphone Desgin|Android Desgin|
-| --- | --- | --- |
-|![caaaa](https://user-images.githubusercontent.com/49178153/160923524-ed970fd3-3495-4a2e-acc6-eebdac28ddd8.PNG)  | ![iphone_2](https://user-images.githubusercontent.com/49178153/160926871-e6ddf33d-5228-4fb6-a7c6-4f59dd4ecac3.png) | ![android_2](https://user-images.githubusercontent.com/49178153/160925490-ffc7b326-8034-4fab-baa8-a53e0666266a.png)
-
-
+> **Project status:** Earlier personal project built with Expo SDK 44 and React Native 0.64. The original dependencies may need updates to run in a current development environment.
 
 ## Features
 
-- A barcode for an order and for a position is scanned by a device camera.🌟
-- If the scan is correct, the scanned code is displayed in the corresponding field.
-- Color distinction or indication between a correct scan and a faulty scan.
-- If the scan is faulty, there is a haptic warning signal (vibration).
-- The application is optimized for iOS and Android.
+- Scan order and position barcodes using the phone camera
+- Display scanned values in their corresponding fields
+- Visual indication of valid and invalid scans
+- Haptic feedback (vibration) on invalid scans
+- Designed for iOS and Android
 
+## Screenshots
 
-## Development
+| Wireframe | iOS screen | Android screen |
+| --- | --- | --- |
+| ![Wireframe](https://user-images.githubusercontent.com/49178153/160923524-ed970fd3-3495-4a2e-acc6-eebdac28ddd8.PNG) | ![iOS app](https://user-images.githubusercontent.com/49178153/160926871-e6ddf33d-5228-4fb6-a7c6-4f59dd4ecac3.png) | ![Android app](https://user-images.githubusercontent.com/49178153/160925490-ffc7b326-8034-4fab-baa8-a53e0666266a.png) |
 
-_Easily set up a local development environment!_
+## Tech stack
 
-Run the app on [localhost:19002](http://localhost:19002)
+- React Native 0.64 / React 17
+- Expo SDK 44
+- `expo-barcode-scanner`
+- JavaScript
 
-- clone
-- `npm install`
-- `npm start`
-- `Scan QR code with your mobile with expo client`
+## Getting started
 
+```bash
+git clone https://github.com/aymenouer/concircle-scanner-mobile-app.git
+cd concircle-scanner-mobile-app
+npm install
+npm start
+```
 
-You can find the Bar code Geneator app here : [App 💻](https://github.com/aymenouer/concircle-scanner-app)
+Use a compatible Expo development environment to run the project on a device or simulator. Current Expo Go releases may not support this older SDK.
 
+## Related project
 
-**Start coding!** 🎉
+[Barcode generator app](https://github.com/aymenouer/concircle-scanner-app) — complementary utility used to generate codes for testing the scanner workflow.
 
+## Potential improvements
 
-## Feedback 
-Any questions or suggestions?
+- Upgrade the Expo SDK and replace deprecated scanning APIs
+- Add automated tests for scan validation and feedback states
+- Improve camera permission and error-state handling
+- Add an updated demo video and installation instructions
 
-You are welcome to discuss it on:
+## Author
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/aymen-ouerghi-249632146/)
-
-<br/>
-<br/>
-<br/>
+[Aymen Ouerghui](https://github.com/aymenouer)
